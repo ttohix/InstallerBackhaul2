@@ -2,7 +2,7 @@
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/PixelShellGIT/InstallerBackhaul/main/InstallerBackhaul.sh)
 ```
-Installer of backhaul Tunnel
+Installer backhaul Tunnel
 <br>
 <br>
 please star my project ⭐
