@@ -32,11 +32,11 @@ install_core() {
     mkdir -p backhaul
     cd backhaul
     if [ "$arch" == "x86_64" ]; then
-        wget https://github.com/Musixal/Backhaul/releases/download/v0.3.3/backhaul_linux_amd64.tar.gz
+        wget https://github.com/Musixal/Backhaul/releases/download/v0.4.5/backhaul_linux_amd64.tar.gz
         tar -xf backhaul_linux_amd64.tar.gz
         rm backhaul_linux_amd64.tar.gz
     elif [ "$arch" == "aarch64" ]; then
-        wget https://github.com/Musixal/Backhaul/releases/download/v0.3.3/backhaul_darwin_arm64.tar.gz
+        wget https://github.com/Musixal/Backhaul/releases/download/v0.4.5/backhaul_darwin_arm64.tar.gz
         tar -xf backhaul_darwin_arm64.tar.gz
         rm backhaul_darwin_arm64.tar.gz
     else
